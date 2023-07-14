@@ -1,5 +1,5 @@
 .contact-form {
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
     text-align: center;
   }
@@ -38,8 +38,11 @@ button:hover {
     background-color: #141414;
 }
 
-@media (max-width: 480px) {
+  @media only screen and (max-width: 600px) {
     .contact-form {
-      max-width: 100%;
+      max-width: 80%;
+      padding: 10px;
+      margin-left: 18px;
+      margin-right: 20px;
     }
   }
