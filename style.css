@@ -142,13 +142,14 @@ footer {
 }
 
 .box {
-  background-color: #ccc;
+  background-color: #e3e1e1;
   max-width: 900px;
   margin: 0 auto;
   padding: 25px;
   margin-top: 20px;
   text-align: center;
   color: #fff;
+  border-radius: 5px;
 }
 
 .txt-for-privacy p {
@@ -265,4 +266,14 @@ hr {
 
 .section-4 ul {
   padding: 0;
+}
+
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_link:hover {
+  color: rgb(218, 211, 211);
 }
